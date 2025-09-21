@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(img/fondo\ FN.png)
+    background-image: url(img/fondo\ FN.png);
 }
-.container{
+
+.container {
     width: 70%;
     margin: 0px auto;
     border: 3px solid black;
@@ -14,125 +16,137 @@ body{
     background-color: white;
 
 }
-.container1 .btm-menu, .logo{
+
+.container1 .btm-menu, .logo {
     float: left;
     line-height: 70px;
 }
-.container1 .btm-menu, label{
+
+.container1 .btm-menu, label {
     color: #fff;
     font-size: 25px;
     cursor: pointer;
     position: relative;
     top: 4px;
-    
+
 }
-.article{
+
+.article {
     margin-top: 15px;
     margin-bottom: 15px;
-    
+
 }
-header{
-background-color: orange;
-height: 100px;
-width: 100%;
-margin: 0px;
-text-align: center;
-line-height: 100px;
-border-bottom: 3px dashed black;
-border-radius: 12px;
-border: 2px solid black;
+
+header {
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 3px dashed black;
+    border-radius: 12px;
+    border: 2px solid black;
 }
-img{
+
+img {
     margin: 0px auto;
     display: block;
     max-width: 100%;
     height: auto;
     border: 2px solid black;
 }
-nav ul li{
+
+nav ul li {
     float: left;
     list-style: none;
     margin: 10px;
     line-height: 30px;
 }
-.clearfix{
+
+.clearfix {
     clear: both;
 }
-nav{
+
+nav {
     background-color: #1f1f1f;
     height: 50px;
     border: 2px solid #1f1f1f;
-   
+
 }
-#content{
+
+#content {
     float: left;
     width: 80%;
     padding: calc(80% - 80px);
     padding: 40px;
     background-color: white;
-    
-    
 }
-aside{
+
+aside {
     float: left;
     width: 10%;
     background: orange;
     min-height: 4134px;
     padding: 10px;
     padding-top: 30px;
-        
+
 }
-footer{
+
+footer {
     background: black;
     color: white;
     text-align: center;
     height: 30px;
     line-height: 30px;
 }
-input{
-    margin-left: 103%;
-    margin-bottom: 50px;
-    height: 50px;
-    width: 100px;
-    background: black;
+
+p {
+    margin-left: 60px;
     color: white;
-    border-radius: 10px;
-    top: 100%;
-}
-p{
-    margin-left: 33px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    text-decoration-line: none;
+    text-decoration: none;
     color: black;
 }
-h2{
+
+h2 {
     margin-left: 30px;
     color: black;
 }
-h3{
+
+h3 {
     color: orange;
     font-style: italic;
 }
-#btm-menu{
+
+#btm-menu {
     display: none;
     position: absolute;
     top: 20px;
     left: 60px;
-    
+
 }
-.container-menu{
+
+.container-menu {
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     transition: all 500ms ease;
     opacity: 0;
     visibility: hidden;
 }
-#btm-menu:checked ~ .container-menu{
+
+#btm-menu:checked~.container-menu {
     opacity: 1;
     visibility: visible;
 }
-.cont-menu{
+
+.cont-menu {
     width: 100%;
     max-width: 250px;
     background: #1c1c1c;
@@ -141,51 +155,60 @@ h3{
     transition: all 500ms ease;
     transform: translateX(-100%);
 }
-#btm-menu:checked ~ .container-menu .cont-menu{
+
+#btm-menu:checked~.container-menu .cont-menu {
     transform: translateX(0%);
 }
-.cont-menu nav{
+
+.cont-menu nav {
     transform: translateY(15%);
-    
+
 }
-.cont-menu nav a{
+
+.cont-menu nav a {
     display: block;
     text-decoration: none;
     padding: 20px;
     color: #c7c7c7;
     border-left: 5px solid transparent;
     transition: all 400ms ease;
-    
+
 }
-.cont-menu nav a:hover{
+
+.cont-menu nav a:hover {
     border-left: 5px solid #c7c7c7;
     background: #1f1f1f;
 }
-.cont-menu label{
+
+.cont-menu label {
     position: absolute;
     right: 5px;
     top: 10px;
     color: #ffffff;
     cursor: pointer;
     font-size: 18px;
-    
+
 }
-.container .btm-menu, .logo{
+
+.container .btm-menu, .logo {
     float: left;
     line-height: 70px;
-    
+
 }
-.container .btm-menu label{
+
+.container .btm-menu label {
     color: #fff;
     font-size: 25px;
     cursor: pointer;
     line-height: 70px;
 }
-.container .menu{
+
+.container .menu {
     float: right;
     line-height: 70px;
 }
-.container .menu a{
+
+.container .menu a {
     display: inline-block;
     padding: 15px 10px;
     line-height: normal;
